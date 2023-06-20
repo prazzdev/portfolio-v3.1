@@ -33,11 +33,10 @@ export default function ProjectList() {
                 repoUrl={"kimi-no-na-wa"}
                 projectUrl="https://prazzdev.github.io/kimi-no-na-wa"
             >
+                <TechStackIco src="html.svg" />
+                <TechStackIco src="css.svg" />
                 <TechStackIco src="js.svg" />
-                <TechStackIco src="next.svg" />
                 <TechStackIco src="tailwind.svg" />
-                <TechStackIco src="aos.webp" />
-                <TechStackIco src="daisyui.svg" />
             </ProjectBox>
             <ProjectBox
                 title="AnonyChat"
