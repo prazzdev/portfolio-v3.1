@@ -27,6 +27,18 @@ export default function ProjectList() {
                 <TechStackIco src="tailwind.svg" />
                 <TechStackIco src="js.svg" />
             </ProjectBox>
+            <ProjectBox 
+                title="This is Kimi no Na Wa"
+                desc="Describe about Kimi no Na Wa anime, the synopsis, the characters and many more."
+                repoUrl={"kimi-no-na-wa"}
+                projectUrl="https://prazzdev.github.io/kimi-no-na-wa"
+            >
+                <TechStackIco src="js.svg" />
+                <TechStackIco src="next.svg" />
+                <TechStackIco src="tailwind.svg" />
+                <TechStackIco src="aos.webp" />
+                <TechStackIco src="daisyui.svg" />
+            </ProjectBox>
             <ProjectBox
                 title="AnonyChat"
                 desc="Sending secret message in anonymous, like NGL.LINK"
