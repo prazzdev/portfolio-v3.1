@@ -22,10 +22,10 @@ export default function SkillList() {
                 title="PHP" 
                 thumbUrl={imgUrl + "php.svg"}
             />
-            <SkillBox 
+            {/* <SkillBox 
                 title="C++" 
                 thumbUrl={imgUrl + "cpp.svg"}
-            />
+            /> */}
         </ListStruct>
         <ListStruct title="Framework/Library">
             <SkillBox 
@@ -44,10 +44,10 @@ export default function SkillList() {
                 title="ExpressJS" 
                 thumbUrl={"/" + imgUrl + "express.webp"}
             />
-            <SkillBox 
+            {/* <SkillBox 
                 title="Laravel" 
                 thumbUrl={imgUrl + "laravel.svg"}
-            />
+            /> */}
             <SkillBox 
                 title="AOS" 
                 thumbUrl={"/" + imgUrl + "aos.webp"}
@@ -88,10 +88,10 @@ export default function SkillList() {
                 title="MySQL" 
                 thumbUrl={imgUrl + "mysql.svg"}
             />
-            <SkillBox 
+            {/* <SkillBox 
                 title="MongoDB" 
                 thumbUrl={imgUrl + "mongodb.svg"}
-            />
+            /> */}
         </ListStruct>
         <ListStruct title="Operating System">
             <SkillBox 
