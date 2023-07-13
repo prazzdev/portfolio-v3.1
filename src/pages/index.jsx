@@ -14,7 +14,7 @@ export default function Home() {
             Agung Prasetyo
           </h1>
           <h3 id="typewriter" className={mark+rdText(4) + " text-teal-500 font-bold text-[25px] drop-shadow-xl mb-2"}>
-            Junior Fullstack Web Developer
+            Junior Front End Web Developer
           </h3>
           {/* <Typewriter 
             options={{
