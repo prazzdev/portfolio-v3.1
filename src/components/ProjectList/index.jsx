@@ -38,6 +38,17 @@ export default function ProjectList() {
                 <TechStackIco src="js.svg" />
                 <TechStackIco src="tailwind.svg" />
             </ProjectBox>
+            <ProjectBox 
+                title="Bocchi The Rock!"
+                desc="Landing Page of Bocchi the Rock Anime. Build with NextJS and TailwindCSS."
+                repoUrl={"bocchi-the-rock-landpage"}
+                projectUrl="https://bocchi-the-rock-landpage.vercel.app"
+            >
+                <TechStackIco src="html.svg" />
+                <TechStackIco src="css.svg" />
+                <TechStackIco src="js.svg" />
+                <TechStackIco src="tailwind.svg" />
+            </ProjectBox>
             <ProjectBox
                 title="AnonyChat"
                 desc="Sending secret message in anonymous, like NGL.LINK"
