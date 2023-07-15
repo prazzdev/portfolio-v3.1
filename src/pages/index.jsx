@@ -1,6 +1,5 @@
 import Layout from "@/components/Layout"
 import Image from "next/image"
-import Typewriter from 'typewriter-effect/dist/core'
 const randomstring = require("randomstring")
 const rdText = (length) => randomstring.generate(length)
 const mark = "style-"
@@ -16,26 +15,6 @@ export default function Home() {
           <h3 id="typewriter" className={mark+rdText(4) + " text-teal-500 font-bold text-[25px] drop-shadow-xl mb-2"}>
             Junior Front End Web Developer
           </h3>
-          {/* <Typewriter 
-            options={{
-              strings: ['Hello', 'World'],
-              autoStart: true,
-              loop: true,
-              delay: 10
-            }}
-            onInit={(typewriter) => {
-              typewriter
-              .typeString('Junior Fullstack Web Developer')
-              .pauseFor(1000)
-              .deleteAll(10)
-              .typeString('FOSS Enthusiast')
-              .pauseFor(1000)
-              .deleteAll(10)
-              .typeString('STIMIK Tunas Bangsa Student')
-              .pauseFor(1000)
-              .start()
-            }}
-          /> */}
           <p className={mark+rdText(3) + " text-lg"}>
             Hi,everyone. Welcome to my portfolio website.
           </p>
