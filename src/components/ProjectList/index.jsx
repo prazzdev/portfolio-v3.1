@@ -44,9 +44,7 @@ export default function ProjectList() {
                 repoUrl={"bocchi-the-rock-landpage"}
                 projectUrl="https://bocchi-the-rock-landpage.vercel.app"
             >
-                <TechStackIco src="html.svg" />
-                <TechStackIco src="css.svg" />
-                <TechStackIco src="js.svg" />
+                <TechStackIco src="next.svg" />
                 <TechStackIco src="tailwind.svg" />
             </ProjectBox>
             <ProjectBox
