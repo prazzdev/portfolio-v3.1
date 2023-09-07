@@ -29,8 +29,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   body {
+    /* display: none; */
+    /* color: red; */
+  }
+  .header {
     display: none;
-    color: red;
   }
   p#mobile {
     display: inline-block;

@@ -1,35 +1,29 @@
 import Layout from "@/components/Layout"
 import Image from "next/image"
-const randomstring = require("randomstring")
-const rdText = (length) => randomstring.generate(length)
-const mark = "style-"
 
 export default function Home() {
   return (
     <Layout pageTitle="Agung Prasetyo | Junior Fullstack Web Developer">
-      <div className={mark+rdText(7) + " flex flex-row justify-center items-center mx-auto w-[100%]"}>
-        <div className={mark+rdText(10) + " mr-[150px]"}>
-          <h1 className={mark+rdText(5) + " font-bold text-[35px]"}>
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center mx-auto w-[100%] lg:h-100vh">
+        <div className="sm:flex flex-col lg:mr-[150px] mt-10 px-10 lg:p-0">
+          <h1 className="font-bold text-[25px] lg:text-[35px] text-center lg:text-left">
             Agung Prasetyo
           </h1>
-          <h3 id="typewriter" className={mark+rdText(4) + " text-teal-500 font-bold text-[25px] drop-shadow-xl mb-2"}>
+          <h3 id="typewriter" className="text-teal-500 font-bold sm:text-[20px] lg:text-[25px] text-center lg:text-start drop-shadow-xl">
             Junior Front End Web Developer
           </h3>
-          <p className={mark+rdText(3) + " text-lg"}>
+          <p className="text-[15px] lg:text-lg text-center lg:text-start">
             Hi,everyone. Welcome to my portfolio website.
           </p>
         </div>
-        <div className={mark+rdText(11) + " h-[280px] w-[280px] -mt-[100px]"}>
+        <div className="h-[280px] w-[280px] lg:-mt-[50px]">
           <Image 
             src={"/images/me/me1.svg"} 
             width={500}
             height={500}
-            className={mark+rdText(12)}
           />
         </div>
       </div>
-      <p id="mobile" 
-        className="absolute top-[50%] left-[50%] right-[50%]">Mobile screen only</p>
     </Layout>
   )
 }

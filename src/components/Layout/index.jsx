@@ -11,7 +11,7 @@ export default function Layout(props) {
         </Head>
         <Header />
         <div id="container" 
-            className="flex flex-column min-h-screen w-[60%] mx-auto py-[90px]"
+            className="flex flex-column min-h-screen lg:w-[60%] mx-auto py-[90px]"
             data-aos="fade-right"
             data-aos-easing="ease-in-out"
             data-aos-duration="600"
