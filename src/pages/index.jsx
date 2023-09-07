@@ -16,7 +16,7 @@ export default function Home() {
             Hi,everyone. Welcome to my portfolio website.
           </p>
         </div>
-        <div className="h-[280px] w-[280px] lg:-mt-[50px] bg-teal-200 lg:bg-none rounded-xl lg:rounded-none">
+        <div className="h-[280px] w-[280px] lg:-mt-[50px] bg-teal-200 lg:bg-[#eee] rounded-xl lg:rounded-none">
           <Image 
             src={"/images/me/me1.svg"} 
             width={500}
