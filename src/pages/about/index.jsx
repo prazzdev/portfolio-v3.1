@@ -18,14 +18,8 @@ export default function About() {
                             <p className="my-3">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dolor?
                             </p>
-                            <p className="my-3">
+                            <p className="my-3 -mb-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt quas quo maxime deleniti explicabo maiores nulla fugit magni et?
-                            </p>
-                            <p className="my-3">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae ad totam alias numquam eum dolorem modi id qui tempore molestias nihil quo expedita, facere obcaecati natus ex voluptas neque! At.
-                            </p>
-                            <p className="my-3 mb-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eveniet rem doloribus veniam iste, pariatur saepe omnis animi est voluptatem inventore eius, laboriosam quae quia reiciendis nisi. Eius atque non, officia impedit numquam doloribus molestiae totam expedita deleniti veritatis eaque.
                             </p>
                         </div>
                     </div>

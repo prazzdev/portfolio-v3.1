@@ -134,7 +134,8 @@ export default function ProjectList() {
             </ProjectBox>
         </ListStruct>
         <ListStruct title="Misc">
-            <ProjectBox />
+            {/* <ProjectBox /> */}
+            <p>Not Available.</p>
         </ListStruct>
         </>
     )

@@ -6,7 +6,7 @@ export default function ProjectBox(props) {
     return (
         <>
         <div 
-            className="w-[420px] min-h-[190px] mr-5 mb-5 flex flex-col px-6 pt-8 rounded-2xl overflow-hidden bg-white shadow-md hover:bg-gray-100 hover:-translate-y-2 hover:shadow-lg transition">
+            className="w-[100%] lg:w-[420px] min-h-[190px] lg:mr-5 mb-5 flex flex-col px-6 pt-8 rounded-2xl overflow-hidden bg-white shadow-md hover:bg-gray-100 hover:-translate-y-2 hover:shadow-lg transition">
             <div id="head" className="flex justify-between mb-4">
                 <h3 className="font-bold text-xl">{title}</h3>
                 <div id="opt" className="">
