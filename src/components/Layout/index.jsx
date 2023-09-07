@@ -25,7 +25,7 @@ export default function Layout(props) {
             <meta property="twitter:url" content="https://agungpraz31.my.id/" />
             <meta property="twitter:title" content="Agung Prasetyo | Junior Front End Web Developer" />
             <meta property="twitter:description" content="As a junior front end web developer, I'm passionate about crafting engaging and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I'm eager to contribute to creating visually appealing and responsive websites. I'm dedicated to staying up-to-date with the latest web development trends and technologies, always striving to enhance my skills and deliver high-quality web solutions. Let's collaborate and turn your web ideas into reality together!" />
-            <meta property="twitter:image" content="https://agungpraz31.my.id/images/me2.svg" />
+            <meta property="twitter:image" content="https://agungpraz31.my.id/images/me2.png" />
             <title>{pageTitle}</title>
         </Head>
         <Header />
