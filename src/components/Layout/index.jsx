@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Header from "../Header"
 import Footer from "../Footer"
+import NavMenu from "../NavMenu"
 
 export default function Layout(props) {
     const { pageTitle, children } =  props
@@ -18,6 +19,7 @@ export default function Layout(props) {
         >
             {children}
         </div>
+        <NavMenu />
         <Footer />
         </>
     )

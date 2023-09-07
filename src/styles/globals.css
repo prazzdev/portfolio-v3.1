@@ -25,6 +25,7 @@ body {
   background: #eee;
   font-family: "Exo";
   color: #444;
+  position: relative;
 }
 
 @media only screen and (max-width: 768px) {
