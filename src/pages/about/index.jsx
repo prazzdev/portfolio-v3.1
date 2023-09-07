@@ -90,7 +90,7 @@ export default function About() {
                 {/* <section id="work-experience" className="">
                     <HeadingTitle text="Work Experience" />
                 </section> */}
-                <section id="resume" className="mb-16 px-6 lg:p-0">
+                <section id="resume" className="mb-16 lg:mb2 px-6 lg:p-0">
                     <HeadingTitle text="Resume" />
                     <p className="mt-1">
                         You can read my resume <a href="#">here</a>.
