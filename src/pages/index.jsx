@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <Layout pageTitle="Agung Prasetyo | Junior Fullstack Web Developer">
+    <Layout pageTitle="Agung Prasetyo | Junior Front End Web Developer">
       <div className="flex flex-col-reverse lg:flex-row justify-center items-center mx-auto w-[100%] lg:h-100vh">
         <div className="sm:flex flex-col lg:mr-[150px] mt-10 px-10 lg:p-0">
           <h1 className="font-bold text-[25px] lg:text-[35px] text-center lg:text-left">
