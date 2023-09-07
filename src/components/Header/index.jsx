@@ -12,7 +12,7 @@ export default function Header() {
                 <Link href="https://agungpraz.hashnode.dev" className="font-bold px-4 py-2 rounded-md transition hover:bg-gray-50" target="_blank">Blog</Link>
             </div>
             <div id="lightDarkMode" className="">
-                lorem
+                
             </div>
         </header>
         </>
