@@ -7,7 +7,7 @@ export default function ProjectBox(props) {
     return (
         <>
         <div 
-            className="sm:w-[100%] lg:w-[420px] min-h-fit lg:mr-5 mb-5 flex flex-col px-6 py-6 rounded-2xl overflow-hidden bg-white shadow-md hover:bg-gray-100 hover:-translate-y-2 hover:shadow-lg transition">
+            className="sm:w-[100%] lg:w-[360px] min-h-fit lg:mr-5 mb-5 flex flex-col px-6 py-6 rounded-2xl overflow-hidden bg-white shadow-md hover:bg-gray-100 hover:-translate-y-2 hover:shadow-lg transition">
             <div id="head" className="flex flex-col justify-between mb-4">
                 <Image src={imgUri + 'kpu-bem-stb' + '.webp'} width={410} height={300} />
                 <div className="flex flex-row justify-between items-center mt-4">
