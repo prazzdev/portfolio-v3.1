@@ -5,15 +5,20 @@ export default function SkillBox(props) {
     return (
         <>
         <div 
-            className="tooltip tooltip-left tooltip-accent w-[130px] lg:w-[210px] h-[140px] mr-5 mb-5 flex justify-center items-center rounded-lg lg:rounded-2xl  bg-white shadow-md hover:bg-gray-100 hover:-translate-y-2 hover:shadow-lg transition" 
+            className="w-[130px] lg:w-[210px] min-h-[150px] mr-5 mb-5 flex flex-col justify-between items-center py-2 rounded-lg lg:rounded-2xl  bg-white shadow-md hover:bg-gray-100 hover:-translate-y-2 hover:shadow-lg transition overflow-hidden" 
             data-tip={title}
         >
-            <Image 
-                src={`${thumbUrl}`}  
-                width={90}
-                height={90}
-                alt={`${title}`}
-            />
+            <div className="min-h-[80%] min-w-[100%] flex justify-center items-center">
+                <Image 
+                    src={`${thumbUrl}`}  
+                    width={90}
+                    height={90}
+                    alt={`${title}`}
+                />
+            </div>
+            <div className="min-h-[20%] min-w-[100%] flex justify-center items-center">
+                <h1 className="">{title}</h1>
+            </div>
         </div>
         </>
     )

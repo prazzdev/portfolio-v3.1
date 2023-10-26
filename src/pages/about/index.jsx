@@ -58,7 +58,7 @@ export default function About() {
                             <ListDot />
                         </div>
                     </div> */}
-                    <ul class="steps steps-vertical">
+                    {/* <ul class="steps steps-vertical">
                         <li class="step step-success mb-4">
                             <div className="flex flex-col text-left">
                                 <ListOn 
@@ -79,7 +79,27 @@ export default function About() {
                                 />
                             </div>
                         </li>
-                    </ul>
+                    </ul> */}
+                    <section className="">
+                        <div className="container max-w-5xl py-2 mx-auto">
+                            <div className="grid gap-4 mx-4 sm:grid-cols-12">
+                                <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                                    <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-gray-700">
+                                        <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-teal-500">
+                                            <h3 className="text-xl font-semibold tracki">Senior High School</h3>
+                                            <h5 className="font-semibold text-xl mt-1.5">SMA Muhammadiyah 1 Banjarnegara</h5>
+                                            <time className="text-xs tracki uppercase text-gray-400 mt-1">2018 - 2021</time>
+                                        </div>
+                                        <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-teal-500">
+                                            <h3 className="text-xl font-semibold tracki">University</h3>
+                                            <h5 className="font-semibold text-xl mt-1.5">STIMIK Tunas Bangsa Banjarnegara</h5>
+                                            <time className="text-xs tracki uppercase text-gray-400 mt-1">2021 - PRESENT</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </section>
                 {/* <section id="work-experience" className="">
                     <HeadingTitle text="Work Experience" />
